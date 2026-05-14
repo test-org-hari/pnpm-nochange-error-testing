@@ -3,11 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "fetch-factory": "0.0.1"
+    "fetch-factory": "0.2.1"
   },
   "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-register": "6.24.1",
+    "babel-core": "6.26.0",
+    "babel-register": "6.26.0",
     "jest": "22.0.4"
   }
 }
