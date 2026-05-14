@@ -13,8 +13,8 @@ importers:
         version: 0.0.1
     devDependencies:
       babel-core:
-        specifier: 6.26.0
-        version: 6.26.0
+        specifier: 6.26.3
+        version: 6.26.3
       babel-register:
         specifier: 6.24.1
         version: 6.24.1
@@ -175,8 +175,8 @@ packages:
   babel-code-frame@6.26.0:
     resolution: {integrity: sha512-XqYMR2dfdGMW+hd0IUZ2PwK+fGeFkOxZJ0wY+JaQAHzt1Zx8LcvpiZD2NiGkEG8qx0CfkAOr5xt76d1e8vG90g==}
 
-  babel-core@6.26.0:
-    resolution: {integrity: sha512-FSiqfr4SYrH5Zv5KgWahyY99VC+Aod1ioMRNvL1lPS4WTUqvPAdYo7ioWEhDHEDqZADapbJZMX0sBuRsc93bDQ==}
+  babel-core@6.26.3:
+    resolution: {integrity: sha512-6jyFLuDmeidKmUEb3NM+/yawG0M2bDZ9Z1qbZP59cyHLz8kYGKYwpJP0UwUKKUiTRNvxfLesJnTedqczP7cTDA==}
 
   babel-generator@6.26.1:
     resolution: {integrity: sha512-HyfwY6ApZj7BYTcJURpM5tznulaBvyio7/0d4zFOeMPUmfxkCjHocCuoLa2SAGzBI8AREcH3eP3758F672DppA==}
@@ -2218,7 +2218,7 @@ snapshots:
       esutils: 2.0.3
       js-tokens: 3.0.2
 
-  babel-core@6.26.0:
+  babel-core@6.26.3:
     dependencies:
       babel-code-frame: 6.26.0
       babel-generator: 6.26.1
@@ -2260,9 +2260,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-jest@22.4.4(babel-core@6.26.0):
+  babel-jest@22.4.4(babel-core@6.26.3):
     dependencies:
-      babel-core: 6.26.0
+      babel-core: 6.26.3
       babel-plugin-istanbul: 4.1.6
       babel-preset-jest: 22.4.4
     transitivePeerDependencies:
@@ -2292,7 +2292,7 @@ snapshots:
 
   babel-register@6.24.1:
     dependencies:
-      babel-core: 6.26.0
+      babel-core: 6.26.3
       babel-runtime: 6.26.0
       core-js: 2.6.12
       home-or-tmp: 2.0.0
@@ -2304,7 +2304,7 @@ snapshots:
 
   babel-register@6.26.0:
     dependencies:
-      babel-core: 6.26.0
+      babel-core: 6.26.3
       babel-runtime: 6.26.0
       core-js: 2.6.12
       home-or-tmp: 2.0.0
@@ -3500,8 +3500,8 @@ snapshots:
 
   jest-runtime@22.4.4:
     dependencies:
-      babel-core: 6.26.0
-      babel-jest: 22.4.4(babel-core@6.26.0)
+      babel-core: 6.26.3
+      babel-jest: 22.4.4(babel-core@6.26.3)
       babel-plugin-istanbul: 4.1.6
       chalk: 2.4.2
       convert-source-map: 1.9.0

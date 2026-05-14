@@ -6,7 +6,7 @@
     "fetch-factory": "0.0.1"
   },
   "devDependencies": {
-    "babel-core": "6.26.0",
+    "babel-core": "6.26.3",
     "babel-register": "6.24.1",
     "jest": "22.0.4"
   }
