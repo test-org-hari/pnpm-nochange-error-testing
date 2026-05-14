@@ -1,16 +1,13 @@
 {
-  "name": "pnpm-transitive-core-issue-13177",
+  "name": "pnpm-nochange-repro",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "fetch-factory": "0.0.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.23.0",
   "devDependencies": {
-    "@puppeteer/browsers": "2.10.10"
+    "babel-core": "6.26.0",
+    "babel-register": "6.24.1",
+    "jest": "22.0.4"
   }
 }
